@@ -1,0 +1,198 @@
+@import url("https://fonts.cdnfonts.com/css/gotham-book");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 500px;
+  font-family: "Gotham Book", Arial, Helvetica, sans-serif;
+}
+
+#home-background-header {
+  background: linear-gradient(90deg, rgb(0, 140, 255), rgb(0, 225, 255));
+}
+
+#sayt-home-contact-us {
+  padding: 60px 0;
+  text-align: center;
+  margin: auto;
+}
+#sayt-home-contact-us .home-co-us-container .contact-us-h1 {
+  color: #fff;
+  font-size: 1.82rem;
+  font-weight: 500;
+  line-height: 2.19rem;
+  margin-bottom: 10px;
+}
+#sayt-home-contact-us .home-co-us-container .contact-us-p {
+  color: #fff;
+  font-size: 0.91rem;
+  font-weight: 300;
+  line-height: 1.375rem;
+  margin-bottom: 40px;
+}
+#sayt-home-contact-us .home-co-us-container .contact-us-btn {
+  color: #54b6e7;
+  background-color: #fff;
+  font-size: 0.81rem;
+  font-weight: 400;
+  line-height: 1.21rem;
+  opacity: 0.85;
+  padding: 10px 24px;
+  border-radius: 50px;
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.6);
+  transition: opacity 0.3s, box-shadow 0.5s;
+}
+#sayt-home-contact-us .home-co-us-container .contact-us-btn:hover {
+  opacity: 1;
+  box-shadow: 0 0 0 13px rgba(255, 255, 255, 0.6);
+}
+
+#home-img-section {
+  margin: auto;
+  padding: 50px 0;
+  text-align: center;
+}
+#home-img-section img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 100%;
+  height: 100%;
+}
+
+#home-domein-search {
+  margin-top: 100px;
+}
+
+#right {
+  padding: 40px 10px 40px 20px;
+  border-radius: 100px 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(0, 204, 255);
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 999;
+  transform: translateY(-50%);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+#right .select {
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 50px;
+}
+
+#sayt-home-header {
+  height: 106px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(90deg, rgb(0, 140, 255), rgb(0, 225, 255)) !important;
+}
+#sayt-home-header .sayt-home-header-nav {
+  height: 106px;
+  margin: auto;
+  max-width: 1440px;
+  background-color: transparent !important;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .menu-ul li a {
+  color: #fff;
+  font-weight: 400;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .menu-hr {
+  width: 1px;
+  background-color: #fff;
+  border-top: 0;
+  opacity: 1;
+  margin: 0;
+  align-self: stretch;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .language-btn .btn-az {
+  background-color: transparent;
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .language-btn .btn-az::after {
+  content: "EN";
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  top: 150%;
+  left: 0;
+  z-index: 999;
+  border-radius: 40px;
+  transition: all 3s;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .language-btn .btn-az:hover::after {
+  display: inline-block;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .user-btn {
+  gap: 10px;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .user-btn button {
+  border-radius: 50px;
+  padding: 7px 25px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  background-color: #fff;
+  color: rgb(0, 204, 255);
+  opacity: 0.8;
+  border: 2px solid #fff;
+  transition: all 0.5s;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .user-btn button:last-of-type {
+  background-color: transparent;
+  color: #fff;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .user-btn button:last-of-type:hover {
+  background: #fff;
+  color: rgb(0, 204, 255);
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .user-btn button:hover {
+  opacity: 1;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .navbar-offcanvas-icon {
+  display: flex;
+  width: 30px;
+  height: 15px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  border: none;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .navbar-offcanvas-icon span:first-of-type {
+  display: inline-block;
+  width: 60%;
+  height: 1px;
+  background-color: #fff;
+  align-self: flex-start;
+  transition: width 0.5s ease-out;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .navbar-offcanvas-icon span:nth-of-type(2) {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .navbar-offcanvas-icon span:last-of-type {
+  display: inline-block;
+  width: 60%;
+  height: 1px;
+  background-color: #fff;
+  align-self: flex-end;
+  transition: width 0.3s ease-out;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .navbar-offcanvas-icon:hover span:first-of-type, #sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .navbar-offcanvas-icon:hover span:last-of-type {
+  width: 100%;
+}
+#sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .navbar-offcanvas-icon:active, #sayt-home-header .sayt-home-header-nav .header-nav-container .head-menu .navbar-offcanvas-icon:focus {
+  box-shadow: none;
+}/*# sourceMappingURL=sayt.css.map */

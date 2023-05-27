@@ -1,0 +1,14 @@
+@mixin icon($display: null, $width: null, $height: null, $b-color: null) {
+    display: $display;
+    width: $width;
+    height: $height;
+    background-color: $b-color;
+}
+
+@mixin fonts($color: null, $b-color: null, $font-s: null, $font-w: null, $line-h: null) {
+    color: $color;
+    background-color: $b-color;
+    font-size: $font-s;
+    font-weight: $font-w;
+    line-height: $line-h;
+}
